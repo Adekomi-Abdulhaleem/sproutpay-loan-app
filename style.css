@@ -1,0 +1,264 @@
+body {padding: 0;
+      margin: 0;
+}
+
+a {text-decoration: none;
+   color: inherit;
+}
+ul {padding: 0;
+    margin: 10px;
+}
+
+.container {padding: 0 20%;
+}
+.headers {font-size: 36px;
+          font-weight: bold;
+          text-align: center;
+          color: #7D49EC;
+}
+ul li {list-style: none;
+}
+.flex {display: flex;
+}
+.flex-wrap {display: flex;
+            flex-wrap: wrap;
+}
+.styled-numbers {background-color: rgba(125, 73, 236, 0.2);
+                 color: #7D49EC;
+                 padding: 10px 15px;
+                 border-radius: 100px;
+}
+
+.flex-center-item {display: flex;
+                   justify-content: center;
+                   align-items: center;
+}
+.phone-brief-intro {height: 400px;
+                    width: 250px;
+                    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.08);
+                    border-radius: 30px;
+}
+
+
+.section-one {padding: 50px 0;
+}
+
+.section-one  .part {flex: 1;
+                     margin: 20px;
+}
+
+
+.section-one h1 {font-weight: bold;
+                 color: #7D49EC;
+                 font-size: 42px;
+}
+.section-one p {font-size: 24px;
+                color: #7E7E7E;
+                line-height: 36px;
+}
+.section-one button {background-color: #7D49EC;
+                     width: 100px;
+                     height: 40px;
+                     border-radius: 5px;
+                     color: white;
+                     border: none;
+                     outline: none;
+}
+
+.section-two h3 {color: #7D49EC;
+                 font-size: 24px;
+}
+.section-two li {width: 30%;
+                 margin: 15px;
+}
+.section-two h3 span {margin-right: 20px;
+}
+.section-two p {color: #7E7E7E;
+                font-size: 18px;
+                line-height: 24px;
+}
+
+/* .section-three .text-area {display: flex;
+                           flex-direction: column;
+} */
+.section-three h5 {color: #7D49EC;
+                   font-size: 24px;
+                   margin: 5px 0 -10px;
+}
+.section-three li {box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.08);
+                   width: 45%;
+                   padding: 10px 30px;
+                   box-sizing: border-box;
+                   justify-content: center;
+                   align-items: center;
+                   margin: 20px;
+}
+.section-three i {flex: 1;
+                  font-size: 24px;
+                  color: #7D49EC;
+}
+.section-three .text-area {flex: 4;
+}
+.section-three p {color: #7E7E7E;
+}
+
+footer .main-footer {display: flex;
+                     flex-wrap: wrap;
+                     justify-content: space-between;
+                     padding: 10px 0;
+}
+
+.section-three .more-details {padding: 0 100px;
+                              flex-direction: column;
+                              color: #7D49EC;
+                              text-align: center;
+}
+.section-three button {background-color: white;
+                       outline: none;
+                       border: 1px solid #7D49EC;
+                       width: 100px;
+                       height: 35px;
+                       border-radius: 3px;
+                       color: #7D49EC;
+}
+.section-three button:hover {background-color: #7D49EC;
+                             color: white;
+                             border: none;
+}
+
+.section-four .headers {color: white;
+                        margin-bottom: 50px;
+}
+
+.section-four .step-one,
+.section-four .step-three {background-color: #7D49EC;
+                         padding: 20px;
+                         margin: 30px 0;
+}
+
+.section-four .styled-numbers {background-color: rgba(255, 255, 255, 0.2);
+}
+.section-four .details {flex-direction: column;
+                        color: white;
+}
+.section-four .details, .section-four .phone-design {flex: 1;
+}
+.section-four h3 {font-size: 36px;
+}
+.section-four p {font-size: 24px;
+                 margin-top: -10px;
+                 color: rgba(255, 255, 255, 0.7);
+}
+.section-four .main {padding: 50px 0;
+}
+
+.section-four .step-two {background-color: white;
+                         color: #7D49EC;
+}
+.section-four .step-two .details {color: #7D49EC;
+}
+.section-four .step-two .styled-numbers {background-color: rgba(125, 73, 236, 0.2);
+}
+.section-four .step-two p {color: rgba(125, 73, 236, 0.7);
+}
+
+.section-five  .the-container {width: 100%;
+                               box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.05);
+                               padding: 30px 0;
+                               flex-direction: column;
+                               text-align: center;
+}
+.section-five img {height: 120px;
+                   width: 120px;
+                   border-radius: 50%;
+}
+.section-five h2 {color: #7D49EC;
+                  font-weight: bold;
+}
+.section-five p {font-size: 18px;
+                 color: #7E7E7E;
+                 margin-top: 0;
+                 padding: 0 30px;
+}
+.section-five span {color: rgba(125, 73, 236, 0.7);
+                    font-size: 12px;
+                    text-align: right;
+}
+
+footer .first-part {flex: 1;
+}
+
+footer img {height: 40px;
+            width: 150px;
+}
+footer table {flex: 2;
+}
+footer th {text-align: left;
+           color: #7D49EC;
+           padding: 10px 0;
+           font-weight: bold;
+}
+footer td {color: rgba(125, 73, 236, 0.7);
+}
+
+footer .copyright {background-color: #7D49EC;
+                     color: white;
+                     text-align: center;
+                     padding: 5px 0;
+}
+
+@media (max-width: 1275px) {
+    .container {padding: 0 10%;
+    }
+    /* .section-one h1 {font-size: 42px; */
+    /* } */
+    .section-one p {font-size: 22px;
+                    line-height: 30px;
+    }
+}
+
+@media (max-width: 779px) {
+    .container {padding: 0 5%;
+    }
+    .section-two li {width: 50%;
+                     margin: 10px 0;
+    }
+    .section-three li {width: 40%;
+    }
+    .section-one p {font-size: 18px;
+    }
+}
+
+@media (max-width: 379px) {
+    .container {padding: 0;
+    }
+    footer img {height: 25px;
+                width: 100px;
+                padding: 5px 20px;
+    }
+    .section-one .first-part {display: flex;
+                              flex-direction: column;
+                              justify-content: center;
+                              align-items: center;
+                              text-align: center;                   
+    }
+    .section-one h1 {font-size: 36px;
+    }
+    .section-one p {margin-top: -10px;
+    }
+    .section-two li {width: 100%;
+                     margin: 10px 0;
+    }
+    .section-three li {width: 100%;
+    }
+    .section-three .more-details {padding: 0 10px;
+    }
+    .section-four .details {text-align: center;
+    }
+    .section-four h3 {font-size: 24px;
+    }
+    .section-four p {font-size: 18px;
+    }
+    .section-four .main {padding: 30px 0;
+    }
+}
