@@ -25,7 +25,7 @@ ul li {list-style: none;
 }
 .styled-numbers {background-color: rgba(125, 73, 236, 0.2);
                  color: #7D49EC;
-                 padding: 10px 15px;
+                 padding: 10px 17px;
                  border-radius: 100px;
 }
 
@@ -33,18 +33,19 @@ ul li {list-style: none;
                    justify-content: center;
                    align-items: center;
 }
-.phone-brief-intro {height: 400px;
-                    width: 250px;
-                    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.08);
-                    border-radius: 30px;
+.phone-brief-intro {height: 355px;
+                    width: 300px;
 }
 
 
 .section-one {padding: 50px 0;
 }
 
-.section-one  .part {flex: 1;
-                     margin: 20px;
+.section-one  .part {margin: 20px;
+}
+.section-one  .first-part {flex: 2;
+}
+.section-one  .second-part {flex: 1;
 }
 
 
@@ -132,8 +133,8 @@ footer .main-footer {display: flex;
 
 .section-four .step-one,
 .section-four .step-three {background-color: #7D49EC;
-                         padding: 20px;
-                         margin: 30px 0;
+                           padding: 0;
+                           margin: 30px 0;
 }
 
 .section-four .styled-numbers {background-color: rgba(255, 255, 255, 0.2);
@@ -246,6 +247,8 @@ footer .copyright {background-color: #7D49EC;
     }
     .section-one p {margin-top: -10px;
     }
+    .section-two {padding: 0 10px;
+    }
     .section-two li {width: 100%;
                      margin: 10px 0;
     }
@@ -259,6 +262,9 @@ footer .copyright {background-color: #7D49EC;
     }
     .section-four p {font-size: 18px;
     }
-    .section-four .main {padding: 30px 0;
+    .section-four .main {padding:0;
+    }
+    .section-four .step-two,
+    .section-four .step-three {padding: 30px 10px;
     }
 }

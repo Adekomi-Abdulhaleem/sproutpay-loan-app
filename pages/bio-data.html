@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan App // Bio-data</title>
+    <link rel="stylesheet" href="../styles/bio-data.css">
+</head>
+<body>
+    <header>
+        <h1>Bio-data Form</h1>
+    </header>
+    <main>
+        <div class="main-container">
+
+            <label for="currency">Are you a</label>
+            <select name="currency" id="currency" class="currency b-shadow sm-input">
+                <option value="Student">Student</option>
+                <option value="Investor">Investor</option>
+                <option value="Entrepenuer">Entrepenuer</option>
+                <option value="Employee">Employee</option>
+                <option value="Not-employed">Not-employed</option>
+            </select>
+
+            <label for="occupation">What's your occupation?</label>
+            <div class="form-group">
+                <input type="text" id="occupation" placeholder="E.g banker, teacher......">
+            </div>
+        
+            <label for="org-name">Organization Name?</label>
+            <div class="form-group">
+                <input type="text" id="org-name" placeholder="E.g google, microsoft">
+            </div>
+        
+            <label for="income-status">What's your Income Range #/mon<br> 
+            <div class="form-group">
+                <input type="text" id="income-status" placeholder="Password...">
+            </div>
+        
+            <label for="ref-no-1">Reference 1<br> 
+                <span id="err-msg"></span></label>
+            <div class="form-group">
+                <input type="number" id="ref-no-1" placeholder="******">
+            </div>
+        
+            <label for="ref-no-2">Reference 2</label>
+            <div class="form-group">
+                <input type="number" id="ref-no-2" placeholder="******">
+            </div>
+
+            <div class="footer">
+                <button id="submit-btn">Proceed</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../scripts/bio-data.js"></script>
+</body>
+</html>
