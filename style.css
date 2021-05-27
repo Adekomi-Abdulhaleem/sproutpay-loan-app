@@ -294,14 +294,15 @@ footer h2 {color: #7E7E7E;
     }
     header .nav-bar {margin-top: 50px;
                      width: 100%;
-                     background-color: #7D49EC;
                      display: none;
+    }
+    header .nav-bar.active {display: unset;
     }
     header ul {flex-direction: column;
                text-align: center;
                height: 500px;
     }
-    header li {color: white;
+    header li {color: #7E7E7E;
               
     }
     header .mobile {justify-content: space-around;
