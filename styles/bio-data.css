@@ -3,6 +3,7 @@
 
 body {background-color: #7D49EC;
 }
+
 header {font-size: 20px;
          color: white;
          font-weight: bold;
@@ -15,7 +16,7 @@ main {display: flex;
       align-items: center;
 }
 
-.main-container {width: 50%;
+.main-container {width: 60%;
                 height: fit-content;
                 display: flex;
                 /* flex-direction: column; */
@@ -43,17 +44,17 @@ input, select {border: 1px solid white;
 }
 
 .footer {display: flex;
-                     justify-content: center;
-                     align-items: center;
+         justify-content: center;
+         align-items: center;
 }
 
 .footer button {width: 90px;
-               height: 35px;
-               border-radius: 50px;
-               border: none;
-               background-color: white;
-               color: #7D49EC;
-               margin-bottom:10px;
+                height: 35px;
+                border-radius: 50px;
+                border: none;
+                background-color: white;
+                color: #7D49EC;
+                margin-bottom:10px;
 }
 
 .err-input {border-color: red;
@@ -66,16 +67,19 @@ input, select {border: 1px solid white;
           display: none;
 }
 
+/* style for smaller screens - screen size 1325px */
 @media (max-width: 1325px) {
       .main-container {width: 70%;
       }
 }
 
+/* style for smaller screens - screen size 925px */
 @media (max-width: 925px) {
       .main-container {width: 85%;
       }
 }
 
+/* style for smaller screens - screen size 725px */
 @media (max-width: 725px) {
       .main-container {width: 100%;
       }
@@ -86,6 +90,7 @@ input, select {border: 1px solid white;
       }
 }
 
+/* style for smaller screens - screen size 495px */
 @media (max-width: 495px) {
       label {font-size: 10px;
       }

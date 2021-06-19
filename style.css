@@ -1,13 +1,24 @@
+/* ////////////////////////// */
+
+/* the generals */
+
 body {padding: 0;
       margin: 0;
 }
-
 a {text-decoration: none;
    color: inherit;
 }
 ul {padding: 0;
     margin: 10px;
 }
+ul li {list-style: none;
+}
+
+/* ////////////////////////// */
+
+/* ////////////////////////// */
+
+/* reusables */
 
 .container {padding: 0 20%;
 }
@@ -16,8 +27,6 @@ ul {padding: 0;
           text-align: center;
           color: #7D49EC;
           font-family: roboto;
-}
-ul li {list-style: none;
 }
 .flex {display: flex;
 }
@@ -37,6 +46,15 @@ ul li {list-style: none;
 .phone-brief-intro {height: 355px;
                     width: 300px;
 }
+
+/* ////////////////////////// */
+
+/* main - desktop screen */
+
+
+/* ////////////////////////// */
+
+/* header styles */
 
 header .container {padding-top: 20px;
                    color: #7E7E7E;
@@ -62,19 +80,24 @@ header button:hover {background-color: #7D49EC;
                      color: white;
 }
 
+/* header styles */
+
+/* ////////////////////////// */
+
+
+/* ////////////////////////// */
+
+/* section one */
+
 .section-one {padding: 70px 0;
 }
 
 .section-one  .part {margin: 20px;
 }
 .section-one  .first-part {flex: 2;
-                           /* flex-direction: column;
-                           justify-content: center; */
 }
 .section-one  .second-part {flex: 1;
 }
-
-
 .section-one h1 {font-weight: bold;
                  color: #7D49EC;
                  font-size: 48px;
@@ -99,13 +122,22 @@ header button:hover {background-color: #7D49EC;
                                height: 400px;
 }
 
+/* section one */
+
+/* ////////////////////////// */
+
+
+/* ////////////////////////// */
+
+/* section two */
+
+.section-two li {margin: 15px;
+                 width: 30%;
+}
 .section-two h3 {color: #7D49EC;
                  font-size: 24px;
                  font-family: roboto;
                  font-weight: 500;
-}
-.section-two li {margin: 15px;
-                 width: 30%;
 }
 .section-two h3 span {margin-right: 20px;
 }
@@ -115,17 +147,15 @@ header button:hover {background-color: #7D49EC;
                 font-family: roboto slab;
 }
 
-.section-three h5 {color: #7D49EC;
-                   font-size: 24px;
-                   margin: 5px 0 -10px;
-                   font-family: roboto;
-}
-.section-three h3 {font-family: roboto slab;
-                   font-weight: 400;
-                   font-size: 14px;
-                   padding: 0 5px;
-                   line-height: 24px;
-}
+/* section two */
+
+/* ////////////////////////// */
+
+
+/* ////////////////////////// */
+
+/* section three */
+
 .section-three li {box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.08);
                    width: 45%;
                    padding: 10px 30px;
@@ -134,26 +164,19 @@ header button:hover {background-color: #7D49EC;
                    align-items: center;
                    margin: 20px;
 }
+.section-three .text-area {flex: 4;
+}
 .section-three i {flex: 1;
                   font-size: 24px;
                   color: #7D49EC;
 }
-.section-three .text-area {flex: 4;
+.section-three h5 {color: #7D49EC;
+                   font-size: 24px;
+                   margin: 5px 0 -10px;
+                   font-family: roboto;
 }
 .section-three p {color: #7E7E7E;
                   font-family: roboto slab;
-}
-
-footer .main-footer {display: flex;
-                     flex-wrap: wrap;
-                     justify-content: space-between;
-                     padding: 10px 0;
-}
-
-.section-three .more-details {padding: 0 100px;
-                              flex-direction: column;
-                              color: #7D49EC;
-                              text-align: center;
 }
 .section-three button {background-color: white;
                        outline: none;
@@ -167,6 +190,26 @@ footer .main-footer {display: flex;
                              color: white;
                              border: none;
 }
+.section-three .more-details {padding: 0 100px;
+                              flex-direction: column;
+                              color: #7D49EC;
+                              text-align: center;
+}
+.section-three h3 {font-family: roboto slab;
+                   font-weight: 400;
+                   font-size: 14px;
+                   padding: 0 5px;
+                   line-height: 24px;
+}
+
+/* section three */
+
+/* ////////////////////////// */
+
+
+/* ////////////////////////// */
+
+/* section four */
 
 .section-four .headers {color: white;
                         padding: 20px;
@@ -177,14 +220,16 @@ footer .main-footer {display: flex;
                            padding: 0;
                            margin: 30px 0;
 }
-
-.section-four .styled-numbers {background-color: rgba(255, 255, 255, 0.2);
-                               color: white;
+.section-four .main {padding: 50px 0;
 }
 .section-four .details {flex-direction: column;
                         color: white;
 }
-.section-four .details, .section-four .phone-design {flex: 1;
+.section-four .styled-numbers {background-color: rgba(255, 255, 255, 0.2);
+                               color: white;
+}
+.section-four .details,
+.section-four .phone-design {flex: 1;
 }
 .section-four h3 {font-size: 32px;
                   font-weight: 500;
@@ -197,9 +242,6 @@ footer .main-footer {display: flex;
                  font-family: roboto slab;
                  line-height: 30px;
 }
-.section-four .main {padding: 50px 0;
-}
-
 .section-four .step-two {background-color: white;
                          color: #7D49EC;
 }
@@ -210,6 +252,15 @@ footer .main-footer {display: flex;
 }
 .section-four .step-two p {color: rgba(125, 73, 236, 0.7);
 }
+
+/* section four */
+
+/* ////////////////////////// */
+
+
+/* ////////////////////////// */
+
+/* section five */
 
 .section-five  .the-container {width: 100%;
                                box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.05);
@@ -236,7 +287,21 @@ footer .main-footer {display: flex;
                     text-align: right;
 }
 
+/* section five */
+
+/* ////////////////////////// */
+
+
+/* ////////////////////////// */
+
+/* footer */
+
 footer .container {padding:  0 5%;
+}
+footer .main-footer {display: flex;
+                     flex-wrap: wrap;
+                     justify-content: space-between;
+                     padding: 10px 0;
 }
 footer .first-part {flex: 1;
 }
@@ -258,7 +323,6 @@ footer td {color: #7E7E7E;
            font-family: roboto slab;
            font-size: 12px;
 }
-
 footer .copyright {background-color: #7D49EC;
                      color: white;
                      text-align: center;
@@ -271,11 +335,22 @@ footer h2 {color: #7E7E7E;
            font-weight: 400;
 }
 
+/* footer */
+
+/* ////////////////////////// */
+
+
+
+/* ////////////////////////// */
+
+/* style for smaller screens - screen size 1275px */
+
 @media (max-width: 1275px) {
+    /* generals */
     .container {padding: 0 10%;
     }
-    /* .section-one h1 {font-size: 42px; */
-    /* } */
+
+    /* second one */
     .section-one h1 {font-size: 42px;
                      margin-top: 50px;
     }
@@ -284,9 +359,19 @@ footer h2 {color: #7E7E7E;
     }
 }
 
+/* ////////////////////////// */
+
+
+/* ////////////////////////// */
+
+/* style for smaller screens - screen size 779px */
+
 @media (max-width: 779px) {
+    /* generals */
     .container {padding: 0 5%;
     }
+
+    /* header */
     header .container {display: unset;
                        padding: 0 5%;
     }
@@ -312,20 +397,28 @@ footer h2 {color: #7E7E7E;
                       float: right;
                       margin: 20px 20px 0 0;
     }
+
+    /* section one */
     .section-one {padding: 20px 0;
     }
     .section-one h1 {margin: 10px 0;
     }
+    .section-one p {font-size: 18px;
+    }
     .section-one .second-part img {width: unset;
                                    height: unset;
     }
+    
+    /* section two */
     .section-two li {width: 50%;
                      margin: 10px 0;
     }
+
+    /* section three */
     .section-three li {width: 40%;
     }
-    .section-one p {font-size: 18px;
-    }
+
+    /* footer */
     footer .container {padding:  0 3%;
     }
     footer img {height: 30px;
@@ -338,16 +431,27 @@ footer h2 {color: #7E7E7E;
     
 }
 
+/* ////////////////////////// */
+
+
+/* ////////////////////////// */
+
+/* style for smaller screens - screen size 379px */
+
 @media (max-width: 379px) {
+    /* header */
     .container {padding: 0;
     }
-    footer img {height: 25px;
-                width: 100px;
-                padding: 5px 20px;
-    }
+
+    /* section one */
     .section-one {padding: 0;
     }
     .section-one h1 {margin: 0 0 20px;
+                     font-size: 36px;
+    }
+    .section-one p {margin-top: -10px;
+                    font-size: 12px;
+                    line-height: 20px;
     }
     .section-one .first-part {display: flex;
                               flex-direction: column;
@@ -355,21 +459,21 @@ footer h2 {color: #7E7E7E;
                               align-items: center;
                               text-align: center;                   
     }
-    .section-one h1 {font-size: 36px;
-    }
-    .section-one p {margin-top: -10px;
-                    font-size: 12px;
-                    line-height: 20px;
-    }
+
+    /* section two */
     .section-two {padding: 0 10px;
     }
     .section-two li {width: 100%;
                      margin: 10px 0;
     }
+
+    /* section three */
     .section-three li {width: 100%;
     }
     .section-three .more-details {padding: 0 10px;
     }
+
+    /* section four */
     .section-four .details {text-align: center;
     }
     .section-four h3 {font-size: 24px;
@@ -377,9 +481,17 @@ footer h2 {color: #7E7E7E;
     .section-four p {font-size: 16px;
                      line-height: 22px;
     }
-    .section-four .main {padding:0;
+    .section-four .main {padding: 0;
     }
     .section-four .step-two,
     .section-four .step-three {padding: 30px 10px;
     }
+
+    /* footer */
+    footer img {height: 25px;
+                width: 100px;
+                padding: 5px 20px;
+    }
 }
+
+/* ////////////////////////// */

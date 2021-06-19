@@ -1,8 +1,10 @@
 * {box-sizing: border-box;
 }
+
 a {text-decoration: none;
        color: inherit;
 }
+
 header {font-size: 20px;
          color: #7D49EC;
          font-weight: bold;
@@ -41,9 +43,11 @@ input {border: 1px solid #7D49EC;
        margin: 20px 0 40px 0;
 }
 
-.footer, .form-group, .to-sign-up {display: flex;
-                                   justify-content: center;
-                                   align-items: center;
+.footer,
+.form-group,
+.to-sign-up {display: flex;
+             justify-content: center;
+             align-items: center;
 }
 
 .footer button {width: 90px;
@@ -69,6 +73,5 @@ input {border: 1px solid #7D49EC;
 
 #err-msg {color: red;
           font-size: 10px;
-          /* margin: 50px 0 0; */
           display: none;
 }
